@@ -46,6 +46,7 @@ body{
     color:  #ffffff;
     font-weight: 700;
     font-size: 22px;
+    margin-bottom: 20px;
 }
 .soft-skills-item{
     color: #ff6b08;
@@ -69,7 +70,7 @@ body{
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 20px;
+    margin-left: 50px;
 }
 .contacts-type{
     font-size: 14px;
@@ -83,6 +84,14 @@ body{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+}
+.contacts-item_copy{
+    color: #ffffff;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 60px;
+    margin-left: 50px;
 }
 .tech-skills-container{
     background: #1e2939;
@@ -215,6 +224,15 @@ body{
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 14px;
+}
+
+.certificate-link{
+    padding: 15px 20px 0;
+}
+
+.certificate-link a{
+    background: transparent url(../img/icons8-certificate-64.png) no-repeat left;
+    padding: 15px 0 15px 80px;
 }
 /*
 @media print {
